@@ -73,9 +73,6 @@
     <loc>https://timriffe.github.io/DemoTools//reference/calcAgeN.html</loc>
   </url>
   <url>
-    <loc>https://timriffe.github.io/DemoTools//reference/census_cohort_adjust.html</loc>
-  </url>
-  <url>
     <loc>https://timriffe.github.io/DemoTools//reference/check_heaping_bachi.html</loc>
   </url>
   <url>
@@ -118,7 +115,7 @@
     <loc>https://timriffe.github.io/DemoTools//reference/dth5_zigzag.html</loc>
   </url>
   <url>
-    <loc>https://timriffe.github.io/DemoTools//reference/find.my.case.html</loc>
+    <loc>https://timriffe.github.io/DemoTools//reference/find_my_case.html</loc>
   </url>
   <url>
     <loc>https://timriffe.github.io/DemoTools//reference/fitted_logquad_b.html</loc>
@@ -190,7 +187,10 @@
     <loc>https://timriffe.github.io/DemoTools//reference/interp.html</loc>
   </url>
   <url>
-    <loc>https://timriffe.github.io/DemoTools//reference/interp_coh_bare.html</loc>
+    <loc>https://timriffe.github.io/DemoTools//reference/interp_coh.html</loc>
+  </url>
+  <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/interp_lc_lim.html</loc>
   </url>
   <url>
     <loc>https://timriffe.github.io/DemoTools//reference/interpolatePop.html</loc>
@@ -226,13 +226,28 @@
     <loc>https://timriffe.github.io/DemoTools//reference/lt_abridged.html</loc>
   </url>
   <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/lt_abridged2single.html</loc>
+  </url>
+  <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/lt_ambiguous.html</loc>
+  </url>
+  <url>
     <loc>https://timriffe.github.io/DemoTools//reference/lt_id_L_T.html</loc>
   </url>
   <url>
     <loc>https://timriffe.github.io/DemoTools//reference/lt_id_Ll_S.html</loc>
   </url>
   <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/lt_id_d_l.html</loc>
+  </url>
+  <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/lt_id_d_q.html</loc>
+  </url>
+  <url>
     <loc>https://timriffe.github.io/DemoTools//reference/lt_id_l_d.html</loc>
+  </url>
+  <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/lt_id_l_q.html</loc>
   </url>
   <url>
     <loc>https://timriffe.github.io/DemoTools//reference/lt_id_lda_L.html</loc>
@@ -331,6 +346,12 @@
     <loc>https://timriffe.github.io/DemoTools//reference/pop1m_pasex.html</loc>
   </url>
   <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/pop1m_rus2002.html</loc>
+  </url>
+  <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/pop1m_rus2010.html</loc>
+  </url>
+  <url>
     <loc>https://timriffe.github.io/DemoTools//reference/pop5_mat.html</loc>
   </url>
   <url>
@@ -359,6 +380,9 @@
   </url>
   <url>
     <loc>https://timriffe.github.io/DemoTools//reference/shift.vector.html</loc>
+  </url>
+  <url>
+    <loc>https://timriffe.github.io/DemoTools//reference/shift_census_ages_to_cohorts.html</loc>
   </url>
   <url>
     <loc>https://timriffe.github.io/DemoTools//reference/simplify.text.html</loc>

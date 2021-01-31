@@ -80,7 +80,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">DemoTools</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">01.11.02</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">01.13.02</span>
       </span>
     </div>
 
@@ -227,8 +227,7 @@ redistribution in <code><a href='OPAG.html'>OPAG()</a></code></p></li>
 <span class='va'>Age_fit</span>    <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>70</span>,<span class='fl'>80</span><span class='op'>)</span>
 <span class='va'>AgeInt_fit</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>10</span>,<span class='fl'>10</span><span class='op'>)</span>
 <span class='va'>nLx</span>        <span class='op'>&lt;-</span> <span class='fu'><a href='downloadnLx.html'>downloadnLx</a></span><span class='op'>(</span><span class='cn'>NULL</span>, <span class='st'>"Spain"</span>,<span class='st'>"female"</span>,<span class='fl'>1971</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; Downloading nLx data for Spain, years 1971, gender female</div><div class='output co'>#&gt; <span class='message'>New names:</span>
-#&gt; <span class='message'>* NA -&gt; ...1</span></div><div class='input'><span class='va'>Age_nLx</span>    <span class='op'>&lt;-</span> <span class='fu'><a href='names2age.html'>names2age</a></span><span class='op'>(</span><span class='va'>nLx</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; Downloading nLx data for Spain, years 1971, gender female</div><div class='input'><span class='va'>Age_nLx</span>    <span class='op'>&lt;-</span> <span class='fu'><a href='names2age.html'>names2age</a></span><span class='op'>(</span><span class='va'>nLx</span><span class='op'>)</span>
 
 <span class='co'># India Males, 1991</span>
 <span class='va'>Pop</span>        <span class='op'>&lt;-</span> <span class='fu'><a href='smooth_age_5.html'>smooth_age_5</a></span><span class='op'>(</span><span class='va'>pop1m_ind</span>,
@@ -239,8 +238,7 @@ redistribution in <code><a href='OPAG.html'>OPAG()</a></code></p></li>
 <span class='va'>AgeInt</span>     <span class='op'>&lt;-</span> <span class='fu'><a href='age2int.html'>age2int</a></span><span class='op'>(</span><span class='va'>Age</span>, OAvalue <span class='op'>=</span> <span class='fl'>1</span><span class='op'>)</span>
 
 <span class='va'>nLx</span>        <span class='op'>&lt;-</span> <span class='fu'><a href='downloadnLx.html'>downloadnLx</a></span><span class='op'>(</span><span class='cn'>NULL</span>, <span class='st'>"India"</span>,<span class='st'>"male"</span>,<span class='fl'>1991</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; Downloading nLx data for India, years 1991, gender male</div><div class='output co'>#&gt; <span class='message'>New names:</span>
-#&gt; <span class='message'>* NA -&gt; ...1</span></div><div class='input'><span class='va'>Age_nLx</span>    <span class='op'>&lt;-</span> <span class='fu'><a href='names2age.html'>names2age</a></span><span class='op'>(</span><span class='va'>nLx</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; Downloading nLx data for India, years 1991, gender male</div><div class='input'><span class='va'>Age_nLx</span>    <span class='op'>&lt;-</span> <span class='fu'><a href='names2age.html'>names2age</a></span><span class='op'>(</span><span class='va'>nLx</span><span class='op'>)</span>
 <span class='va'>AgeInt_nLx</span> <span class='op'>&lt;-</span> <span class='fu'><a href='age2int.html'>age2int</a></span><span class='op'>(</span><span class='va'>Age_nLx</span>,OAvalue <span class='op'>=</span> <span class='fl'>1</span><span class='op'>)</span>
 
 <span class='va'>Pop_fit</span>    <span class='op'>&lt;-</span> <span class='fu'><a href='groupAges.html'>groupAges</a></span><span class='op'>(</span><span class='va'>Pop80</span>, <span class='va'>Age</span>, N <span class='op'>=</span> <span class='fl'>10</span><span class='op'>)</span><span class='op'>[</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"60"</span>,<span class='st'>"70"</span><span class='op'>)</span><span class='op'>]</span>
